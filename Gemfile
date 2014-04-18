@@ -50,10 +50,11 @@ gem 'spring',        group: :development
 # gem 'capistrano-rails', group: :development
 
 # Use debugger
-# gem 'debugger', group: [:development, :test]
+ gem 'debugger', group: [:development]
 
 group :test do
   gem 'capybara', '1.1.2'
+  gem 'factory_girl_rails', '~> 4.4.1'
 end
 
 gem "rspec-rails", :group => [:development, :test]
