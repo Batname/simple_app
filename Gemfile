@@ -14,7 +14,7 @@ group :production do
   gem 'rails_12factor'
 end
 
-gem 'bootstrap-will_paginate', '0.0.9'
+gem 'bootstrap-will_paginate', '~> 0.0.10'
 
 # For using attr_accessible
 gem 'protected_attributes'
